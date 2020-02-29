@@ -15,4 +15,9 @@
     <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
     <li><strong>Authors:</strong> {{ num_authors }}</li>
   </ul>
+  <p>For a search of Genre and Copies</p>
+  <ul>
+    <li><strong>Genre where in name <i>{{ genre_search }}</i> : </strong>{{ num_genre }}</li>
+    <li><strong>Copies avalable where in title: <i>{{ instance_search }}</i> : </strong>{{ num_instances_searched }} </li>
+  </ul>
 {% endblock %}
